@@ -1,0 +1,40 @@
+.content {
+    grid-area: c;
+    background-color: deepskyblue;
+}
+
+.dialogsItems {
+    padding: 10px;
+}
+
+.dialogsItems .active {
+    color: gray;
+}
+
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogs .dialog {
+}
+
+
+.item {
+}
+
+.messages {
+    padding: 10px;
+}
+
+.message {
+}
+
+.chat {
+    margin-left: 3px;
+    margin-top: 2px;
+}
+.button{
+    margin-left: 3px;
+    margin-top: 1px;
+}

@@ -1,0 +1,12 @@
+.item a{
+    color: wheat;
+}
+
+a:active {
+    color: gray;
+}
+
+.nav {
+    grid-area: n;
+    background-color: burlywood;
+}

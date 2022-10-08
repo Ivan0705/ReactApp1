@@ -1,0 +1,10 @@
+.item {
+    color: lightseagreen;
+}
+
+.item img {
+    width: 55px;
+    height: auto;
+    border-radius: 30px;
+}
+.post{}

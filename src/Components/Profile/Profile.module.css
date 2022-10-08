@@ -1,0 +1,10 @@
+.context {
+    grid-area: c;
+    background-color: blue;
+}
+
+ul li {
+    list-style-type: disc;
+}
+
+

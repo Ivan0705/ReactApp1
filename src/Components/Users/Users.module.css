@@ -1,0 +1,33 @@
+.userPhoto {
+    width: 150px;
+}
+
+.selectedPage {
+    font-weight: bold;
+    margin-left: 3px;
+    margin-top: 2px;
+}
+
+.selectedPage:active {
+    color: lawngreen;
+}
+
+.user {
+    margin-left: 12px;
+    margin-top: 9px;
+}
+
+.searchDiv {
+    margin-left: 2px;
+    margin-top: 9px;
+}
+
+.searchDiv input {
+    margin-left: 2px;
+    margin-right: 3px;
+}
+
+.searchDiv button {
+    margin-left: 3px;
+    height: 26px;
+}

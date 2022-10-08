@@ -1,0 +1,49 @@
+{
+  "version": "2.1.4",
+  "compilerOptions": {
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "allowJs": false,
+    "isolatedModules": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": true,
+    "noImplicitAny": false,
+    "noImplicitUseStrict": true,
+    "noEmitHelpers": false,
+    "removeComments": true,
+    "noLib": false,
+    "sourceMap": true,
+    "inlineSources": true,
+    "preserveConstEnums": true,
+    "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "rootDir": "./src",
+    "outDir": "./lib",
+    "typeRoots": [
+      "../"
+    ],
+    "types": [],
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "./typings/**/*",
+    "./src/**/*",
+    "./test/**/*"
+  ],
+  "compileOnSave": true,
+  "atom": {
+    "rewriteTsconfig": false
+  },
+  "files": [
+    "index.d.ts",
+    "redux-form-tests.tsx"
+  ]
+}
